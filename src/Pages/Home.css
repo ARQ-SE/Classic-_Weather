@@ -1,0 +1,138 @@
+#myinput{
+  background-color: rgb(4, 0, 43, 0.6);
+  border: none;
+  border-bottom: 2px solid #099FFF;
+  color: white;
+  width:200px;
+  height:25px;
+  border-radius: 1px;
+  
+}
+#myinput::placeholder{
+  padding-left: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#myinput:focus{
+  outline: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;    
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .scrollable {
+    display: flex;
+    background-image: url(../assets/n2m.jpg);
+    background-size: cover;
+  }
+  /*------------------------------------------------*/
+  
+  
+  /* Scrollbar Styles */
+  
+  .container::-webkit-scrollbar {
+    height: 5px; /* Width of the scrollbar */
+    
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.701); /* Background color of the scrollbar track */
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #0884d1; /* Color of the scrollbar handle */
+    border-radius: 8px;     /* Border radius of the scrollbar handle */
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background: #029eff; /* Color of the scrollbar handle on hover */
+  }
+  
+  .container::-webkit-scrollbar-corner {
+    background: #e70909; /* Background color of the scrollbar corner */
+  }
+  h1, h3, h4{
+    color: white;
+  }
+  p, span,div {
+    color: white;
+  }
+  .inputsArea{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    margin: 10px 60px 0 auto;
+  }
+  .mainBtn{
+    background-color: rgb(245, 245,245, 0.1);
+    color: white;
+  }
+  .mainBtn:hover{
+    background-color: rgb(245, 245,245, 0.3);
+    font-weight: bold;
+  }
+  #cbtn{
+    background-color: rgb(245, 245,245, 0.3);
+    font-weight: bold;
+  }
+  /* *{
+    margin: 0;
+    padding: 0;
+  } */
+  .currentDetails{
+    width: 90%;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-around; */
+    /* position: absolute; */
+    /* border: 2px solid #e70909; */
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: left;
+  }
+
+  #locap{
+    font-size: 2rem;
+    position: relative;
+    /* top: 50px;
+    left: 50px; */
+  }
+  #timep{
+    margin-bottom: 180px;
+    margin-top: -30px;
+  }
+  .tempp{
+    font-size: 4rem;
+    /* border: 2px solid red; */
+  }
+  .currentDetails img{
+    width: 120px;
+    /* border: 2px solid red; */
+  }
+  .textnicon{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+  }
+  #statp{
+    font-size: 2rem;
+    position: relative;
+    top:5px;
+    margin-top: -20px;
+  }
+  .subdetails{
+    display: flex;
+    background-color: rgb(255,255,255,0.1);
+    border-radius: 10px;
+
+    justify-content: space-around;
+
+    margin: auto;
+  }

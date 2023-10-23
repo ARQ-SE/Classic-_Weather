@@ -1,0 +1,19 @@
+.overallMainItems{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 2px solid #099FFF;
+}
+.overallSecondaryItems{
+    /* border: 2px solid purple; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between ;
+    
+    /* flex-direction: column; */
+}
+#statuscss{
+    font-size: 2rem;
+}

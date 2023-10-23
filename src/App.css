@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
+.colr{
+  background-color: rgb(0, 0, 0, 0.2);
+  width: 100vw;
+  min-height: 100vh;
+  max-height: fit-content;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1 ;
+}
+
+h1, h2 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+h2 { 
+  font-size: 3rem;
+  text-align: center;
+}
